@@ -25,5 +25,3 @@ pip install -e ".[dev]"
 pytest -q
 python -m teleop_collector.demo
 ```
-
-The demo generates synthetic data only. RealSense/ZED/ROS2/robot SDK adapters are intentionally left as hardware integration boundaries rather than pretending this public repo contains a physical deployment.
